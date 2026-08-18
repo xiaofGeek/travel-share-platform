@@ -1,0 +1,10 @@
+{
+  "name": "travel-share-platform-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate:assets": "node scripts/generate-demo-assets.js",
+    "generate:data": "node scripts/generate-demo-data.js"
+  }
+}

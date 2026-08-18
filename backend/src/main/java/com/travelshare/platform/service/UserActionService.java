@@ -1,0 +1,30 @@
+package com.travelshare.platform.service;
+import com.travelshare.platform.dto.*;
+import java.util.List;
+import java.util.Map;
+public interface UserActionService {
+    Map<String,Object> profile(String username);
+    Map<String,Object> updateProfile(String username, ProfileRequest request);
+    Object myGuides(String username, String status);
+    Map<String,Object> myGuide(String username, Long id);
+    Object createGuide(String username, GuideRequest request);
+    Object updateGuide(String username, Long id, GuideRequest request);
+    void submitGuide(String username, Long id);
+    void deleteGuide(String username, Long id);
+    Map<String,Object> toggleLike(String username, Long guideId);
+    Map<String,Object> toggleFavorite(String username, String type, Long targetId);
+    Map<String,Object> toggleFollow(String username, Long targetUserId);
+    Map<String,Object> guideInteractionState(String username, Long guideId);
+    Map<String,Object> favoriteState(String username, String type, Long targetId);
+    Map<String,Object> followState(String username, Long targetUserId);
+    Object addComment(String username, CommentRequest request);
+    Object createRoute(String username, RouteRequest request);
+    Object copyRoute(String username, Long routeId);
+    List<Map<String,Object>> messages(String username);
+    void readMessage(String username, Long id);
+    void readAllMessages(String username);
+    void report(String username, ReportRequest request);
+    void recordSearch(String username, String keyword);
+    void clearSearch(String username);
+    Object centerData(String username, String section);
+}

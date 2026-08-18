@@ -1,0 +1,5 @@
+<script setup>
+import {View,Star,Pointer} from '@element-plus/icons-vue'
+defineProps({guide:{type:Object,required:true},compact:Boolean})
+</script>
+<template><router-link :to="`/guide/${guide.id}`" class="guide-card" :class="{compact}"><div class="guide-cover"><img :src="guide.coverImage" :alt="guide.title" loading="lazy" @error="$event.target.src='/uploads/demo/placeholders/placeholder-001.png'"><span v-if="guide.featured" class="card-badge">编辑精选</span><span class="days-badge">{{guide.days}} 天</span></div><div class="guide-body"><p class="card-kicker">{{guide.destination?.name||'旅行灵感'}} · 人均 ¥{{Number(guide.budget||0).toLocaleString()}}</p><h3>{{guide.title}}</h3><p v-if="!compact" class="guide-summary">{{guide.summary}}</p><div class="card-foot"><div class="author"><img :src="guide.author?.avatar||'/uploads/demo/avatars/avatar-001.png'" alt="作者头像"><span>{{guide.author?.nickname||'山海旅人'}}</span></div><div class="metrics"><span><el-icon><View/></el-icon>{{guide.viewCount}}</span><span><el-icon><Pointer/></el-icon>{{guide.likeCount}}</span><span><el-icon><Star/></el-icon>{{guide.favoriteCount}}</span></div></div></div></router-link></template>
