@@ -5,7 +5,8 @@
 本项目源码为半成品，如需完整版源码可联系
 
 V：`Q1848148016`     Q:`1848148016`
-[![Uploading d1033d47-e8cc-4fa5-b0f3-fc3f51c20d86.png…]()](https://mmbiz.qpic.cn/sz_mmbiz_png/bsGyUfqWxkEIxicq0AgjlWw5LibbUEGh4DicGxkgDiazaMYkIVoPOmicuuQ7CFl9GBvVwIRW5WBf4kFibgA6n5mYy1O9gQ8bBLEpt5POEFJ05mhE4/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+
+<img width="1080" height="595" alt="640" src="https://github.com/user-attachments/assets/ea49feef-544f-40b2-a8d7-5366b9ab59aa" />
 
 
 ## 访问地址
