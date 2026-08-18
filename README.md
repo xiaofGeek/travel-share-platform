@@ -1,12 +1,16 @@
 # 山海迹 · 旅游攻略分享平台
 
 山海迹是一套面向毕业设计展示的本地旅游内容平台，由独立 C 端、独立管理端和 Spring Boot API 组成。项目覆盖目的地、图文攻略、旅行路线、专题、创作者、互动、审核、举报、运营推荐和统计看板，并包含可重复生成的本地素材及大规模演示数据。
+## 项目演示
+
+点击查看项目完整演示视频：[▶ 山海迹旅游攻略分享平台系统演示](https://www.bilibili.com/video/xxxx)
+
+公众号文章：https://mp.weixin.qq.com/s/hVeg7-x0Mv732Ps8RKs8wg
 ## 注意
 本项目源码为半成品，如需完整版源码可联系
 
 V：`Q1848148016`     Q:`1848148016`
 
-<img width="1080" height="595" alt="640" src="https://github.com/user-attachments/assets/ea49feef-544f-40b2-a8d7-5366b9ab59aa" />
 
 
 ## 访问地址
