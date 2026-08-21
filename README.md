@@ -4,7 +4,7 @@
 
 ### 在线演示视频
 
-B站：[▶ 山海迹旅游攻略分享平台系统演示](https://www.bilibili.com/video/xxxx)
+B站：[▶ 山海迹旅游攻略分享平台系统演示](https://www.bilibili.com/video/BV1KiuH6hEWn/?spm_id_from=333.1387.homepage.video_card.click&vd_source=98bce7df38ecc1f989aee3edccd2f24e)
 
 
 ### 系统截图
